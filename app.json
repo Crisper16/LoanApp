@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "ko",
+    "slug": "ko",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logos.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/logos.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logos.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/logos.png"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app needs access to your photos to upload documents.",
+          "cameraPermission": "The app needs access to your camera to take photos of documents."
+        }
+      ],
+      "expo-localization"
+    ]
+  }
+}
